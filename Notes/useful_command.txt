@@ -1,0 +1,7 @@
+behave -f allure_behave.formatter:AllureFormatter -o Reports/ Feature
+#this command will create a report using aluure formatter and run
+#all the features in Features folder
+#the report will be created in json file
+
+allure serve Reports/
+#this command will create an HTML report from json files
